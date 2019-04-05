@@ -7,7 +7,7 @@ CREATE TABLE `tb_user` (
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `access_token` varchar(200) DEFAULT '',
-  `diamon` int(11) DEFAULT '0',
+  `diamond` int(11) DEFAULT '0',
   `health` int(11) DEFAULT '100',
   `defense` int(11) DEFAULT '0',
   `damage` int(11) DEFAULT '10',
