@@ -16,7 +16,7 @@ namespace DotnetCoreServer.Controllers
             this.rankDao = rankDao;
         }
 
-        // POST Rank/Total
+        // Get Rank/Total
         [HttpGet]
         public RankResult Total(int Start, int Count)
         {
